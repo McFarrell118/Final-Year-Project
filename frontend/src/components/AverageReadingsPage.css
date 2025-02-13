@@ -1,0 +1,61 @@
+.button-group {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.button-group button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  border: 2px solid black; /* Add black border */
+  border-radius: 5px;
+  background-color: #3293fa;
+  color: black; /* Change text color to black */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold; /* Make text bold */
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+}
+
+.navigation-button {
+  display: block;
+  margin: 20px 0;
+  padding: 8px 16px;
+  border: 2px solid black; /* Add black border */
+  border-radius: 5px;
+  background-color: #3293fa;
+  color: black; /* Change text color to black */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold; /* Make text bold */
+}
+
+.navigation-button:hover {
+  background-color: #136bc9;
+}
+
+/* New styles for the image */
+.diabetes-chart {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block; /* Centers image in a block */
+  margin: 20px auto; /* Adds margin on top and bottom */
+}
+
+/* Styles for paragraph elements in AverageReadingsPage */
+.average-readings-p {
+  font-size: 16px; /* Adjust size as needed */
+  font-family: 'Arial', sans-serif; /* A common, easy-to-read font */
+  color: #333; /* Dark grey for high contrast */
+  text-align: justify; /* Justifies the text for a clean look */
+  line-height: 1.5; /* Increases line height for readability */
+  margin-bottom: 20px; /* Adds space below each paragraph */
+}
+
+/* Additional styling if you want to emphasize certain paragraphs */
+.important-p {
+  color: hsl(0, 0%, 0%); /* A blue color for importance */
+}

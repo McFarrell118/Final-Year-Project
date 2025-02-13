@@ -1,0 +1,72 @@
+/* RetinaImages.css */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.input-group {
+    margin: 20px 0;
+}
+
+.input-group input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 2px solid black; /* Add black border */
+    border-radius: 4px;
+    background-color: #3293fa;
+    color: black; /* Change text color to black */
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-weight: bold; /* Make text bold */
+}
+
+button:hover {
+    background-color: #136bc9;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+.prediction-result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e7f5ff;
+    border-left: 5px solid #2196F3;
+    color: #333;
+}
+
+.prediction-result strong {
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+}

@@ -1,0 +1,10 @@
+.site-header {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: hwb(221 29% 22% / 0.712);
+  }
+  
+  .site-header h1 {
+    margin: 0;
+    color: #000000;
+  }
